@@ -2,7 +2,6 @@
     "name": "gotmining",
     "version": "0.1.0",
     "description": "web app Using the MongoDB driver and Express",
-    "main": "app.js",
     "dependencies": {
         "express": "~4.13.3",
         "body-parser": "~1.15.0",
@@ -10,5 +9,8 @@
         "nunjucks": "~2.2.0",
         "nunjucks-date": "~1.2.0"
     },
+"scripts":{
+"start":"node gotmining.js"
+},
     "author": "Kanika Mann"
 }
